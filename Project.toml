@@ -1,0 +1,12 @@
+name = "EDTpdv"
+uuid = "11abcbd2-bc40-4a41-ae2e-3ea83e117562"
+version = "0.1.0"
+authors = ["Darryl Gamroth <dgamroth@rubus.ca>"]
+
+[deps]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+UnsafeArrays = "11f200e3-9c33-4d4e-83cc-b5532177d80d"
+
+[compat]
+CEnum = "0.5"
+UnsafeArrays = "1.0"

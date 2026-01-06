@@ -1,0 +1,22 @@
+[general]
+library_names = { "libpdv.h" = "libpdv" }
+library_name = "libpdv"
+output_file_path = "../src/LibEDTpdv.jl"
+module_name = "LibEDTpdv"
+prologue_file_path = "./prologue.jl"
+export_symbol_prefixes = ["pdv_", "edt_", "EDT_", "PDV_"]
+use_julia_native_enum_type = false
+auto_mutability = false
+extract_c_comment_style = "doxygen"
+show_c_function_prototype = true
+use_deterministic_symbol = true
+smart_de_anonymize = true
+
+[codegen]
+use_julia_bool = true
+use_ccall_macro = true
+always_NUL_terminated_string = true
+opaque_as_mutable_struct = false
+
+[codegen.macro]
+macro_mode = "none"

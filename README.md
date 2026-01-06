@@ -112,4 +112,3 @@ end
 ## Notes
 
 - Most functions require hardware to be present; without hardware you can still load the module and inspect the API.
-- See `docs/plan.md` for the wrapper plan and generation notes.
